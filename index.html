@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Badminton Academy Landing Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2b8cee",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+              "content-light": "#ffffff",
+              "content-dark": "#1b2837",
+              "text-primary-light": "#0d141b",
+              "text-primary-dark": "#e7edf3",
+              "text-secondary-light": "#4c739a",
+              "text-secondary-dark": "#9fb3c8",
+              "border-light": "#cfdbe7",
+              "border-dark": "#314357",
+            },
+            fontFamily: {
+              display: ["Lexend"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-text-primary-light dark:text-text-primary-dark">
+<div class="relative flex w-full flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-center border-b border-solid border-border-light dark:border-border-dark bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<nav class="flex w-full max-w-7xl items-center justify-between whitespace-nowrap px-4 sm:px-6 lg:px-8 py-3">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl"> sports_tennis </span>
+<h2 class="text-lg font-bold">Badminton Academy</h2>
+</div>
+<div class="hidden items-center gap-9 md:flex">
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">Programs</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">Coaches</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">Facilities</a>
+<a class="text-sm font-medium hover:text-primary dark:hover:text-primary" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Sign Up Now</span>
+</button>
+</nav>
+</header>
+<main class="flex flex-col items-center">
+<div class="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+<section class="my-10 @container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 rounded-xl bg-cover bg-center bg-no-repeat @[480px]:gap-8 items-center justify-center p-4" data-alt="Badminton players in a dynamic action shot on a court" style='background-image: linear-gradient(rgba(13, 20, 27, 0.4) 0%, rgba(13, 20, 27, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHE1ph2j9oLt0V-_FF-C-Em7Jm8yDBzhsLh-AzixxZd5uYosgqKxpEOY2lrzDeYybPSq1EOU4VtyD649O7nkvPV4Pf2J9jTZdq3UQ1mRSqR31ewLxSofQFyZQcIuL4zEdZE5p_uk8eiGlMgcPx0fNVbcxieAPONV36QuwCF5slp4j-cIZSYlqfxcRi9OUamu9W5Y9NTxg__v9qGoqJBphifTavuv1YyhdzmPxyidIkJYfjhW3xZQgoWb5Qy1vGQOW5QDS1hC5e9Hej");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl">Achieve Badminton Excellence</h1>
+<h2 class="text-slate-200 text-sm font-normal leading-normal @[480px]:text-base max-w-xl">Unlock your potential with our world-class coaching and state-of-the-art facilities.</h2>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base hover:opacity-90 transition-opacity">
+<span class="truncate">Explore Programs</span>
+</button>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-10 px-4 py-10 @container">
+<div class="flex flex-col gap-4 text-center items-center">
+<h2 class="text-[32px] font-bold leading-tight tracking-[-0.033em] @[480px]:text-4xl max-w-[720px]">Why Choose Us?</h2>
+<p class="text-base font-normal leading-normal max-w-[720px] text-text-secondary-light dark:text-text-secondary-dark">We are dedicated to fostering talent and passion for badminton through personalized training in a professional environment.</p>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4 p-0">
+<div class="flex flex-1 gap-3 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2"> school </span>
+<div class="flex flex-col gap-1">
+<h3 class="text-base font-bold leading-tight">Expert Coaching</h3>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Learn from certified professionals with years of competitive experience.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2"> sports_gymnastics </span>
+<div class="flex flex-col gap-1">
+<h3 class="text-base font-bold leading-tight">World-Class Courts</h3>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Train on international standard courts with excellent lighting and flooring.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-4xl mb-2"> emoji_events </span>
+<div class="flex flex-col gap-1">
+<h3 class="text-base font-bold leading-tight">Youth Development</h3>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Our specialized programs are designed to nurture young talent from the ground up.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-10">
+<h2 class="text-center text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-6 pt-5">Our Programs</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 bg-content-light dark:bg-content-dark rounded-xl border border-border-light dark:border-border-dark overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Beginner badminton players learning basic strokes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBskGamyCZuXSL6mzPE5t69ehgk3ZfDesXEDJyR9Kkm5IjJTVWHLidX7zXVyPg4mc72DrHRXwCUVxCINfDoHYqmux2otthCHqYtO2S4TtNw6xRXo9WlX7an8uadHpbhpve_mhePwhrnlRzBJKj0jKIyK2q_8lqkR_cQfVDHGGPKk3oB1s8WN3U27dFOjHnY31alX7WIFjnaaJS96My23kNX17Pbi4Y0M1y618QN3_srPE15YFCuIkI0j5GhGaf-JHP0knU0LcaChyfE");'></div>
+<div class="p-4 pt-1">
+<p class="text-base font-bold leading-normal">Beginner's Program</p>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Master the fundamentals of badminton in a fun and supportive group setting.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-content-light dark:bg-content-dark rounded-xl border border-border-light dark:border-border-dark overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Intermediate players practicing drills and footwork" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWOhF8Tcb9MJh9T89tKa8_G4nh34eJavmrxWWroCkjmLqRFHHO6i2FlcUD7IFO3gZZA5dkcHG8OqIeC_bhzeESy5Z02OdSYPp0IO76w7NL3eO3yiwLUQ1LX7GhwAEZnndm14l3Jr29YPs8BG547gUAihOPaBMnviwXQnJybBgbQZG8XtR1RL6pdZ8qYoa9qU6Z6qai19xbntpzOBMRcXC0hjGVMOnA2xR4iBYVcRPJTuXWXoN2uk5z2fAoHGFgEhijkYQu8G8jVkXh");'></div>
+<div class="p-4 pt-1">
+<p class="text-base font-bold leading-normal">Intermediate Training</p>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Refine your technique, strategy, and on-court fitness with advanced drills.</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-content-light dark:bg-content-dark rounded-xl border border-border-light dark:border-border-dark overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Elite badminton players competing in a match" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCtlROOXruloGelwrcgYFuODV3WGhTZiz3SNbgHqQOIco3PpRx_PAf9WKieIFel-D3EKG1mjqxraPW_8JFnwaRVUnzm_NRfaRMSlvMhTyk_HC3UlySvFNkLXtwMby-aB0AKru8a3fLJC0Kfr0emAuDx3RnZwQNyQCQdljyUL-Z-p-6KeeA3ZIHQtlGEJgbJfvy548ltoapVjJF_kFKeknTW9gskDzblOuek_2PnjYy4KC0siFaXGP1GFKfJILusbKKwsN4HneyiSnjn");'></div>
+<div class="p-4 pt-1">
+<p class="text-base font-bold leading-normal">Elite Athlete Camp</p>
+<p class="text-sm font-normal leading-normal text-text-secondary-light dark:text-text-secondary-dark">Intensive training for competitive players aiming for national and international success.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-10">
+<h2 class="text-center text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-6 pt-5">Meet Our Expert Coaches</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-8 p-4">
+<div class="flex flex-col items-center text-center gap-3">
+<div class="w-32 h-32 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Headshot of Coach Alex Johnson" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCi-ZK4uQLtg462UD69oqL6wT3ZoB3MKOo2oYEwoa1BYSEMKfsvwtvuBc7ABjereVI1fxZ35bSi1rLIVZ6fQSUxMxcHEyBKmwPQeVWvE2rlTC_JJyysgUE0lVBVtFY1BCsQqXbQIdkftzPI3Lbux-J5a36jcd5HhD0VZqKN0Otnf0_rAg916YQICG0m968pQi2CZi9JAF4aGfSeF7ZpkgLDj1zt-BrsZdiV4UO7tPfRIpJlb7pm5qL7g1RyVh62WO03TNmkjBaVEyov");'></div>
+<div>
+<h4 class="font-bold">Alex Johnson</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Head Coach</p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center gap-3">
+<div class="w-32 h-32 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Headshot of Coach Maria Garcia" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAF5h022CqrGrffYh7KzRtstF4uOhW-grJRTjPp6C2_gOr4Lhv9OwsGV1vG7IFUMYwVsSKL29Ks6GxDccnQrMhyaFElcfwFAtML1gubjIPxDhMbeaDsTQCzxpxCFMu7VUjer3loYhDt-epjJItZ4G_iBEsXSmvXXl1wcnUC2blksTG_SQ-xDxmKLX9oO1A6IJIz5NT7JtdTe1hBFZDnlqSBbXwM74W79BG5k2Eu79ab3vRakCRS6nQcgIfcwy9nw4ZdfWmFb-pkktYu");'></div>
+<div>
+<h4 class="font-bold">Maria Garcia</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Youth Program Director</p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center gap-3">
+<div class="w-32 h-32 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Headshot of Coach David Chen" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDvohCztSOD_HgTffPOuuNqnMqMRGkVAyUJ9Z5CWdOw04S2zqSs5qBL0ysutqCllLtb4XYCquDyU6slueGQmZcNLCZbz9hnZiSQjJ5eynqi2Q9rnRPbXjNILio4BtjXBQY3cSX2fDUI4XUo6XVw-jUBxUE_f4YqB0oy3uI0mjdhxRHD04kbRBkopV2zrdaXfrTRJaAz2zMuWtbAukKxZ7KrviSOIw0jIrETEe-y7qvo8lJd_PAimsZi1gkBJ7mbQF8Ji4vSsFczSs-4");'></div>
+<div>
+<h4 class="font-bold">David Chen</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Advanced Tactics Coach</p>
+</div>
+</div>
+<div class="flex flex-col items-center text-center gap-3">
+<div class="w-32 h-32 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Headshot of Coach Emily White" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAQYztHjWOk6RDp6-Bm8uMKzyXsAPYC8VG9ly5Os6a-A8GuBagKDheYY-rKRyp-RD5neG_I5kBeH4DhDg227QXaTKAZE0sNYQTr50ZIf-mpass7q-wagsGq90Mxqmn7Bn9UbuXDqOxEjO5XlX4T5zE8yq0usp1SIYJfYWTnFqEhvJ5b0u-VgMABGry8tOqYsLkkU-YRJ7lJADsas3kJjC0f_Sub4980F3jdwAcIvlA2a_P9euOPrpgFh34QT1N5M8WTUvRNa9odivhN");'></div>
+<div>
+<h4 class="font-bold">Emily White</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Fitness &amp; Conditioning</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-10">
+<div class="flex flex-col items-center gap-4 text-center px-4">
+<h2 class="text-[32px] font-bold leading-tight tracking-[-0.033em] sm:text-4xl max-w-2xl">Straight from Our Community</h2>
+<p class="text-base font-normal leading-normal max-w-2xl text-text-secondary-light dark:text-text-secondary-dark">Hear what our students and parents have to say about their experience at the academy.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 mt-8">
+<div class="flex flex-col gap-4 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Photo of Sarah L., a student at the academy" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCoQgfVV5plJbBboPsScIsJHl5xvGGUgCtdHbzgI8n06z9hd-yhHaOnWxH_VQSkuL0kJm_LT5X8qKS53uYHRF5lIf5z4r2neyEsrMwXAr8xgv4V65o59VkW_jTYUjMx29Bh9Nzw9WuRu_M4rA2CPM06LDW-7EzVob37tVxgbx62IQsoJVhOBdhLr2QhtFw7Nh9yljIOmbWG6g8PTwTSeXs3BdlKVR6Qeq5sFcxztJCsIZq8umdn9CdsuEJ8vdC7g2aocyi1tqoSjFBf");'></div>
+<div>
+<h4 class="font-bold">Sarah L.</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Intermediate Student</p>
+</div>
+</div>
+<blockquote class="text-text-secondary-light dark:text-text-secondary-dark">"The coaching here is top-notch! My game has improved drastically in just a few months. The community is so supportive and the facilities are incredible."</blockquote>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Photo of Mark T., a parent" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDIAoT_8O2ShsfRm3kC3m0s_xlKLtwvJ00td8JlemfKgU-6ZoK7iiAzrfVjQeHqH9jsB7Fv-4NGPEd26mCwH7d2yAEkWgQ0eNuhNJhyLgJ8M0cBJCimxC68bl4hRI9Q9piayRzltQhLkHlHdZJz9SNJaHiBvchRJAOhEXNbs35gew2vwu_p3DcX-HPGAMZcGzuyvBCl6PFpQNZpLzsLygwytzdN0lGt7In-RPUgcwcB6QcxiGruObPrvAueRPDoGuz1f7ULhgqJHKeV");'></div>
+<div>
+<h4 class="font-bold">Mark T.</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Parent</p>
+</div>
+</div>
+<blockquote class="text-text-secondary-light dark:text-text-secondary-dark">"My son loves the youth program. The coaches are fantastic with kids – patient, encouraging, and highly skilled. He has developed not just as a player, but as a person."</blockquote>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-border-light dark:border-border-dark bg-content-light dark:bg-content-dark p-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-center bg-no-repeat bg-cover rounded-full" data-alt="Photo of Jennifer P., an elite player" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCR9eLmlmw4tw1XzKkSfvApSy6_HWRBK6qX2VDaReOBbsFw2F2x8d_1cXo5XFGJBDc_ITXFvUbUx72EDZgIBXvF8vpwv6dKFrIEPXRIZGZKI82Jfq_kzTXOzbAMlupE8zssnR5btabt9hO8NTxREZEOFEmduu_wEWsYGlIllFdx2nVGT3pHNstNb2kDhoAyT5ddFg2sZTC20Megt3iA-7tMG_Hi7_mcsDphvhJc4R-ACYDPZh9xVjxde2ztvcnWjqfIHbTrRi2v7gG-");'></div>
+<div>
+<h4 class="font-bold">Jennifer P.</h4>
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">Elite Program Athlete</p>
+</div>
+</div>
+<blockquote class="text-text-secondary-light dark:text-text-secondary-dark">"The elite camp pushed my limits and prepared me for high-level competitions. The tactical insights from the coaches were invaluable. Highly recommended for serious players."</blockquote>
+</div>
+</div>
+</section>
+<section class="py-10">
+<div class="grid md:grid-cols-2 gap-10 items-center bg-content-light dark:bg-content-dark p-8 rounded-xl border border-border-light dark:border-border-dark">
+<div class="flex flex-col gap-6">
+<div>
+<h2 class="text-2xl font-bold leading-tight tracking-[-0.015em]">Get in Touch</h2>
+<p class="text-text-secondary-light dark:text-text-secondary-dark mt-1">Have questions or ready to join? Reach out to us!</p>
+</div>
+<form action="#" class="space-y-4" method="POST">
+<input class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" placeholder="Your Name" type="text"/>
+<input class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" placeholder="Your Email" type="email"/>
+<textarea class="w-full rounded-lg border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark focus:ring-primary focus:border-primary" placeholder="Your Message" rows="4"></textarea>
+<button class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold hover:opacity-90 transition-opacity" type="submit">
+<span class="truncate">Send Message</span>
+</button>
+</form>
+</div>
+<div class="flex flex-col gap-6">
+<div class="aspect-video w-full rounded-lg overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Map showing the location of the badminton academy" data-location="San Francisco" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4_AChq7KbUCmUqTJwY0LGdVvXC7nn2Z6RO76tWxxmUe5_adugcW7dPSxf7iwkxJnm-iE7NiENZG5-eTguzigS-0VS1Kq1R_Pds2TykLO9U-Ddvme0jPRS3jQC3Ra-7DkzbQ6BB9LOhXpfgb6WxxmNbjh46SZ0HYBiTCOevg1N15ol1Nv5N7wbO1uQQ17y7jG0wrBz20Sb0wLjLCMqh4_0pvHInUhp5ltgIKbCLxV4QBWs545oygepFt0Xg4Hb-j8f3h8S31RmDl7o");'></div>
+</div>
+<div class="space-y-2">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary"> location_on </span>
+<p class="text-sm">123 Badminton Ave, Sportsville, CA 94107</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary"> mail </span>
+<p class="text-sm">contact@badmintonacademy.com</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary"> call </span>
+<p class="text-sm">(123) 456-7890</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="w-full bg-content-light dark:bg-content-dark border-t border-border-light dark:border-border-dark mt-10">
+<div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center flex-col md:flex-row gap-6">
+<p class="text-sm text-text-secondary-light dark:text-text-secondary-dark">© 2024 Badminton Academy. All Rights Reserved.</p>
+<div class="flex gap-4">
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+</svg>
+</a>
+<a class="text-text-secondary-light dark:text-text-secondary-dark hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+<path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363.416 2.427.465C9.805 2.013 10.16 2 12.315 2zm-1.163 1.943c-1.042.045-1.71.21-2.225.41a3.001 3.001 0 00-1.12 1.12c-.2.515-.365 1.183-.41 2.225-.045 1.025-.058 1.35-.058 3.328s.013 2.303.058 3.328c.045 1.042.21 1.71.41 2.225a3.001 3.001 0 001.12 1.12c.515.2 1.183.365 2.225.41 1.025.045 1.35.058 3.328.058s2.303-.013 3.328-.058c1.042-.045 1.71-.21 2.225-.41a3.001 3.001 0 001.12-1.12c.2-.515.365-1.183.41-2.225.045-1.025.058-1.35.058-3.328s-.013-2.303-.058-3.328c-.045-1.042-.21-1.71-.41-2.225a3.001 3.001 0 00-1.12-1.12c-.515-.2-1.183-.365-2.225-.41-1.025-.045-1.35-.058-3.328-.058zM12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zM12 14a2 2 0 110-4 2 2 0 010 4zm6.406-7.188a.938.938 0 100 1.875.938.938 0 000-1.875z" fill-rule="evenodd"></path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
